@@ -2,6 +2,30 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### `Demo here`
+To view the demo: [click here](https://vermadilip.github.io/find-the-king/)
+
+![alt text](image.png)
+
+## Project Description: Find the King Card Game
+Overview
+Find the King is an interactive and engaging card game designed to entertain players of all ages. The objective is simple: identify the King card hidden among a trio of cards. With a sleek design and fun gameplay mechanics, this game combines elements of chance and strategy, making it a delightful experience for everyone.
+
+`Features`
+Simple Gameplay: Players click on one of the three cards to reveal its identity. Only one card is the King, while the others are blanks.
+Visual Appeal: The game features visually appealing card designs, including a vibrant image of a crown for the King card, enhancing the overall aesthetics.
+Immediate Feedback: Players receive instant feedback upon guessing, with congratulatory messages for finding the King and encouragement to try again for incorrect guesses.
+Confetti Celebration: Upon successfully finding the King card, players are greeted with a fun confetti animation, adding excitement and a sense of achievement.
+Restart Option: After the game concludes, players can easily restart to play again, ensuring replayability and continuous fun.
+`Technology Stack`
+React: The game is built using React, allowing for a dynamic and responsive user interface.
+CSS for Styling: Custom CSS styles enhance the visual appeal and layout of the game, ensuring a polished look and feel.
+`Target Audience`
+Find the King is designed for casual gamers, families, and anyone looking for a quick and entertaining way to test their luck. Its straightforward mechanics make it easy for new players to pick up while providing enough excitement to keep them coming back for more.
+
+`Conclusion`
+With its captivating gameplay and modern design, Find the King is more than just a game; it's a fun way to engage with friends and family. Whether played in short bursts or extended sessions, it promises to deliver enjoyment and a bit of friendly competition.
+
 ## Available Scripts
 
 In the project directory, you can run:
