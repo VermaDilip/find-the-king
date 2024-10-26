@@ -9,6 +9,8 @@ body {
 .game-container {
   text-align: center;
   padding: 30px;
+  /* background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%); */
 }
 
 .card-container {
@@ -55,7 +57,8 @@ body {
 
 /* Front of the Card */
 .card-front {
-  background-color: #3498db;
+  /* background-color: #3498db; */
+  background: linear-gradient(45deg, gold, silver);
   color: white;
 }
 

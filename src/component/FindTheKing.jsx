@@ -49,7 +49,7 @@ const FindTheKing = () => {
   
     return (
       <div className="game-container">
-        <h1>Find the King</h1>
+         <h1>Find the King 👑</h1>
         <div className="card-container">
           {cards.map((card, index) => (
     <div
