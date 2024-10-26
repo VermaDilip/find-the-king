@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/find-the-king/static/css/main.f2f89991.css",
+    "main.js": "/find-the-king/static/js/main.901f87e8.js",
+    "static/js/453.ce2fa99d.chunk.js": "/find-the-king/static/js/453.ce2fa99d.chunk.js",
+    "static/media/logo.svg": "/find-the-king/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/find-the-king/index.html",
+    "main.f2f89991.css.map": "/find-the-king/static/css/main.f2f89991.css.map",
+    "main.901f87e8.js.map": "/find-the-king/static/js/main.901f87e8.js.map",
+    "453.ce2fa99d.chunk.js.map": "/find-the-king/static/js/453.ce2fa99d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2f89991.css",
+    "static/js/main.901f87e8.js"
+  ]
+}
