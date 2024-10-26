@@ -58,7 +58,9 @@ body {
 /* Front of the Card */
 .card-front {
   /* background-color: #3498db; */
-  background: linear-gradient(45deg, gold, silver);
+  /* background: linear-gradient(45deg, gold, silver); */
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+  radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
   color: white;
 }
 
@@ -107,4 +109,116 @@ body {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
+}
+
+
+
+
+
+
+
+
+.game-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.deposit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.deposit-form input {
+  padding: 8px;
+  width: 200px;
+}
+
+/* .card-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+} */
+
+/* .king-image {
+  width: 100px;
+  height: auto;
+} */
+
+/* .message {
+  margin-top: 10px;
+  font-size: 18px;
+} */
+
+/* .restart-button, .deposit-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+} */
+
+
+body {
+  background-color: #f0f2f5;
+  font-family: 'Arial', sans-serif;
+}
+
+.game-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.atm-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0e4e8;
+}
+
+.atm-card-form {
+  background: linear-gradient(145deg, #1e2a38, #30415d);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  color: white;
+}
+
+.form-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-field label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-field input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.deposit-button {
+  background-color: #ffd700;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.deposit-button:hover {
+  background-color: #e6c200;
 }
